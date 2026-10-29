@@ -12,6 +12,11 @@ internal development documents remain private.
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/looplet/privacy/>
 - Terms of Use: <https://lglglglglg.github.io/app-support-pages/looplet/terms/>
 
+### Qingjian Weather / 晴简天气
+
+- Support: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and
