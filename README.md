@@ -17,6 +17,13 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/privacy/>
 
+### OurFam / 咱家
+
+- Support: <https://lglglglglg.github.io/app-support-pages/ourfam/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/ourfam/privacy/>
+- Terms of Use: <https://lglglglglg.github.io/app-support-pages/ourfam/terms/>
+- Account deletion: <https://lglglglglg.github.io/app-support-pages/ourfam/account-deletion/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and
