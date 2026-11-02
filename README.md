@@ -49,6 +49,11 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/19-ledger/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/19-ledger/privacy/>
 
+### Cike Music / 此刻音乐
+
+- Support: <https://lglglglglglg.github.io/app-support-pages/cike-music/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/cike-music/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and
