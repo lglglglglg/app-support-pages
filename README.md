@@ -39,6 +39,11 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/19-longshot/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/19-longshot/privacy/>
 
+### 19记账 / 19 Ledger
+
+- Support: <https://lglglglglg.github.io/app-support-pages/19-ledger/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/19-ledger/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and

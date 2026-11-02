@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="19记账隐私政策：本地账本、备份、截图识别、离线语音与小组件。">
+  <title>19记账 · 隐私政策</title>
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><div class="mark" aria-hidden="true">19</div><div><strong>19记账</strong><span>SHIJIU STUDIO</span></div></div>
+      <h1>隐私政策</h1>
+      <p class="meta">生效日期：2026 年 11 月 2 日 · <a href="#english">English</a></p>
+      <p class="lede">19记账当前提供本地优先的个人记账、用户主动发起的截图识别与离线语音草稿。</p>
+    </header>
+
+    <section class="card">
+      <h2>1. 账本数据</h2>
+      <p>当前版本不要求注册账号，不接入开发者运营的同步服务器，不含广告或第三方分析 SDK。流水、账户、分类、预算与月收入参考保存在设备上的 App 数据中；当前 App 不向我们上传这些内容。设备备份是否包含 App 数据取决于你的 iOS 和备份设置。</p>
+      <h2>2. 截图记账</h2>
+      <p>只有你主动选择图片时，照片选择器才会把所选图片交给 App。19记账使用 Apple Vision 在设备本地识别文字；原图不上传、不写入账本数据库，也不作为流水附件保留。识别出的字段只有在你确认保存，或你主动关闭确认且结果满足高可信规则时，才会作为普通流水保存在本机。</p>
+      <h2>3. 语音记账</h2>
+      <p>只有你主动开始录音时，App 才会请求麦克风和语音识别权限。当前技术试用先检查设备是否支持中文离线识别，并要求系统在设备上处理；不支持时不走联网回退。录音只在内存中传给系统识别，不生成音频文件。识别文字可编辑，生成草稿不会自动入账；只有在录入表单中确认保存后，文字备注和流水字段才保存在本机。</p>
+      <h2>4. 小组件、快捷指令与备份</h2>
+      <p>小组件通过设备上的 App Group 读取当月笔数及人民币收支汇总，不读取完整流水或截图。金额默认隐藏，可在设置中主动开启；开启后，能看到主屏幕的人也可能看到金额。小组件、快捷指令和 Siri 入口只打开待确认表单，不直接写入流水。你主动导出的 CSV 或 JSON 文件会交给你选择的保存位置或分享对象；选择第三方文件服务时，该服务会按自己的政策处理文件。</p>
+      <h2>5. 删除、网站与联系</h2>
+      <p>删除 App 会移除其本机数据；已导出的文件需要你在保存位置自行管理或删除。本站托管在 GitHub Pages，访问时 GitHub 可能按其政策处理网站访问数据；这不代表 App 自动上传账本。主动发送邮件或加入 QQ 群时，相应服务会处理你提供的信息。请先遮挡账单截图中的姓名、卡号和交易单号，不要发送完整备份。隐私问题请联系 <a href="mailto:shijiuhan19@gmail.com?subject=19%E8%AE%B0%E8%B4%A6%E9%9A%90%E7%A7%81">shijiuhan19@gmail.com</a>。</p>
+      <h2>6. 更新</h2>
+      <p>如未来加入云同步、分析、账号或改变数据处理方式的功能，我们会在发布前更新本政策及应用商店隐私申报。</p>
+    </section>
+
+    <div class="divider" id="english"></div>
+    <section lang="en">
+      <h1>19 Ledger Privacy Policy</h1>
+      <p class="meta">Effective date: November 2, 2026</p>
+      <div class="card">
+        <h2>1. Ledger data</h2>
+        <p>The current app requires no account, has no developer-operated sync server, and includes no ads or third-party analytics SDK. Transactions, accounts, categories, budgets, and monthly income reference values stay in the app's on-device data. The app does not upload these records to us. Whether iOS device backups include app data depends on your backup settings.</p>
+        <h2>2. Screenshot bookkeeping</h2>
+        <p>The app receives only images you actively select. Apple Vision recognizes text on the device. Original images are not uploaded, stored in the ledger database, or retained as transaction attachments. Recognized fields become local transaction data only after your confirmation or, if you disable confirmation, when the result meets the app's high-confidence rules.</p>
+        <h2>3. Voice bookkeeping</h2>
+        <p>Recording begins only when you request it and grant microphone and speech-recognition permission. This trial feature requires on-device Chinese recognition and does not fall back to online recognition. Audio is processed in memory and no audio file is created. Editable recognized text becomes a local transaction only when you confirm and save the form.</p>
+        <h2>4. Widgets, shortcuts, and backups</h2>
+        <p>A widget reads a minimal monthly summary from an on-device App Group. Amounts are hidden by default and may be visible to anyone who sees your Home Screen if you enable them. Widgets, Shortcuts, and Siri open a reviewable form and do not silently save a transaction. CSV and JSON backups are exported only when you choose to do so; your chosen storage or sharing service handles exported files under its own policy.</p>
+        <h2>5. Deletion, website, and contact</h2>
+        <p>Deleting the app removes its local app data. You must manage any backups you exported elsewhere. This site is hosted on GitHub Pages, which may process website visit data under its policy; visiting this site does not mean the app uploads ledger data. Email and QQ services process information you choose to send. Redact personal and payment details from screenshots and do not send full backup files. For privacy questions, contact <a href="mailto:shijiuhan19@gmail.com?subject=19%20Ledger%20Privacy">shijiuhan19@gmail.com</a>.</p>
+        <h2>6. Updates</h2>
+        <p>Before releasing accounts, cloud sync, analytics, or other features that change data handling, we will update this policy and app-store privacy disclosures.</p>
+      </div>
+    </section>
+
+    <nav><a href="../">帮助与支持 / Support</a><a href="../../">所有 App / All apps</a></nav>
+    <footer>© 2026 SHIJIU STUDIO · 19记账</footer>
+  </main>
+</body>
+</html>
