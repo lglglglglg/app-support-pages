@@ -17,6 +17,11 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/qingjian-weather/privacy/>
 
+### 19 Task / 19任务
+
+- Support: <https://lglglglglg.github.io/app-support-pages/19-task/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/19-task/privacy/>
+
 ### OurFam / 咱家
 
 - Support: <https://lglglglglg.github.io/app-support-pages/ourfam/>
