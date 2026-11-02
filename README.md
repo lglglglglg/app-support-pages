@@ -34,6 +34,11 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/versename/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/versename/privacy/>
 
+### 19 Long Screenshot / 19长截图
+
+- Support: <https://lglglglglg.github.io/app-support-pages/19-longshot/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/19-longshot/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and
