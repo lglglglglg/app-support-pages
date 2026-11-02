@@ -29,10 +29,10 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/zhijieli/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/zhijieli/privacy/>
 
-### Vellock
+### VerseName / 言出有典
 
-- Support: <https://lglglglglg.github.io/app-support-pages/vellock/>
-- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/vellock/privacy/>
+- Support: <https://lglglglglg.github.io/app-support-pages/versename/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/versename/privacy/>
 
 ## Directory convention
 
