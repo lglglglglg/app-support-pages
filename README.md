@@ -24,6 +24,11 @@ internal development documents remain private.
 - Terms of Use: <https://lglglglglg.github.io/app-support-pages/ourfam/terms/>
 - Account deletion: <https://lglglglglg.github.io/app-support-pages/ourfam/account-deletion/>
 
+### ZhiJieLi / 知节历
+
+- Support: <https://lglglglglg.github.io/app-support-pages/zhijieli/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/zhijieli/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and
