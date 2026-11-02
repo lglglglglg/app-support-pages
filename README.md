@@ -29,6 +29,11 @@ internal development documents remain private.
 - Support: <https://lglglglglg.github.io/app-support-pages/zhijieli/>
 - Privacy Policy: <https://lglglglglg.github.io/app-support-pages/zhijieli/privacy/>
 
+### Vellock
+
+- Support: <https://lglglglglg.github.io/app-support-pages/vellock/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/vellock/privacy/>
+
 ## Directory convention
 
 Each app has its own lower-case directory containing its support homepage and

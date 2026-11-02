@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vellock 隐私政策：本机加密、备份、Face ID、剪贴板与资料删除。">
+  <title>Vellock · 隐私政策</title>
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><div class="mark" aria-hidden="true">V</div><div><strong>Vellock</strong><span>SHIJIU STUDIO</span></div></div>
+      <h1>隐私政策</h1>
+      <p class="meta">生效日期：2026 年 11 月 2 日 · <a href="#english">English</a></p>
+      <p class="lede">Vellock 由独立开发者品牌 SHIJIU STUDIO 提供。当前 iPhone 版以本机加密保存和用户主动导出备份为基础。</p>
+    </header>
+
+    <section class="card">
+      <h2>1. 本机资料与数据收集</h2>
+      <p>你输入的账号、密码、银行卡、备注、标签和个人模板保存在设备上的加密保险箱文件中。Vellock 不要求注册账号，没有开发者运营的云同步服务器，也不集成广告、用户追踪或第三方行为分析。当前 App 不向我们上传保险箱内容、主密码、恢复码、搜索词或使用记录。</p>
+      <p>语言、主题和自动锁定时间等偏好保存在设备上；最近使用时间保存在加密保险箱中。设备备份是否包含 App 数据取决于你的 iOS 和备份设置。</p>
+
+      <h2>2. 加密与 Face ID</h2>
+      <p>保险箱文件在设备上加密。主密码和恢复码用于解锁；我们无法替你重设或找回二者。你主动启用 Face ID 时，App 把用于解锁的密钥放入受 iOS 生物识别约束的钥匙串项目。Face ID 的人脸数据由 iOS 处理，Vellock 不读取或保存人脸图像。关闭 App 内 Face ID 开关会移除该钥匙串项目。</p>
+
+      <h2>3. 导出、恢复与外部服务</h2>
+      <p>只有你主动导出时，App 才通过 iOS 文件界面把加密 .vault 备份交给你选择的位置。若选择 iCloud Drive 或其他文件服务，该服务会按其自己的政策处理文件；Vellock 不运营该服务，也不会自动同步资料。恢复备份时，App 从你选择的文件读取加密内容，并在验证凭据后写入本机保险箱。恢复前的旧加密文件副本可能保留在 App 的本机数据中。以前导出的备份仍使用导出时的密码或恢复码。</p>
+
+      <h2>4. 剪贴板</h2>
+      <p>你点击复制时，所选字段会写入本机剪贴板。App 会尝试在约 30 秒后移除自己写入、且未被其他内容替换的剪贴板项目。其他 App 在此期间可能读取或粘贴该内容；已经被读取的内容无法撤回。清除剪贴板不会删除保险箱中的资料。</p>
+
+      <h2>5. 保存、修改与删除</h2>
+      <p>你可以在 App 中编辑或删除单张资料卡，也可以关闭 Face ID。当前版本没有单独管理历史加密副本的界面。删除 App 会移除其 App 数据容器中的保险箱与历史加密文件；已经由你导出到“文件”或其他位置的备份需要你在那里自行删除。iOS 钥匙串及系统备份的清理还受 Apple 的设备和备份机制管理。请在删除或换机前确认你已保留所需的备份和恢复码。</p>
+
+      <h2>6. 支持网站与联系</h2>
+      <p>本支持网站托管在 GitHub Pages，访问网页时 GitHub 可能按其政策处理网页访问数据；这不代表 App 自动上传保险箱内容。你主动发送支持邮件时，邮件服务会处理你的邮箱地址及你选择提供的内容。请勿在邮件中发送主密码、恢复码或完整的私密资料。隐私问题请联系 <a href="mailto:shijiuhan19@gmail.com?subject=Vellock%20%E9%9A%90%E7%A7%81">shijiuhan19@gmail.com</a>。</p>
+
+      <h2>7. 政策更新</h2>
+      <p>如将来加入联网、账号、分析、内购或改变数据处理方式的功能，我们会在发布前更新本政策及 App Store 隐私申报。</p>
+    </section>
+
+    <div class="divider" id="english"></div>
+    <section lang="en">
+      <h1>Vellock Privacy Policy</h1>
+      <p class="meta">Effective date: November 2, 2026</p>
+      <div class="card">
+        <h2>1. On-device data and collection</h2>
+        <p>Accounts, passwords, bank card details, notes, tags, and personal templates you enter are stored in an encrypted vault file on your device. Vellock requires no account and has no developer-operated cloud sync service, advertising, tracking, or third-party behavioral analytics. The current app does not upload vault contents, master passwords, recovery codes, searches, or usage records to us.</p>
+        <p>Preferences such as language, appearance, and automatic lock timing stay on the device. Recent-use timestamps stay in the encrypted vault. Whether device backups contain app data depends on your iOS backup settings.</p>
+        <h2>2. Encryption and Face ID</h2>
+        <p>The vault file is encrypted on your device. Your master password and recovery code unlock it; we cannot reset or recover either one for you. If you enable Face ID, the app stores a vault-unlocking key in an iOS Keychain item protected by biometric authentication. iOS handles facial data; Vellock does not read or store face images. Turning off Face ID in the app removes that Keychain item.</p>
+        <h2>3. Export, restore, and external services</h2>
+        <p>When you choose to export, Vellock passes an encrypted .vault backup to the location you select through the iOS file interface. If you choose iCloud Drive or another file provider, that provider handles the file under its own policies. Vellock does not run that service or sync your vault automatically. When restoring, the app reads the encrypted file you choose and writes it to the local vault only after verifying a credential. An older encrypted copy may remain in app-local data after a restore. Previously exported backups keep the password or recovery code used when they were exported.</p>
+        <h2>4. Clipboard</h2>
+        <p>When you tap Copy, the selected field is placed on the local clipboard. The app attempts to remove the item it wrote after about 30 seconds if another item has not replaced it. Other apps may read or paste it before removal, and that access cannot be undone. Clipboard removal does not delete the vault entry.</p>
+        <h2>5. Retention, editing, and deletion</h2>
+        <p>You can edit or delete individual items and turn off Face ID in the app. The current version has no separate interface for managing historical encrypted copies. Deleting the app removes the vault and historical encrypted files from its app data container. Backups you exported elsewhere must be deleted there by you. iOS Keychain items and system backups are also subject to Apple's device and backup behavior. Before deleting the app or changing phones, make sure you have the backups and recovery code you need.</p>
+        <h2>6. Support website and contact</h2>
+        <p>This support site is hosted on GitHub Pages. GitHub may process website visit data under its own policies; visiting it does not mean the app automatically uploads vault contents. If you email support, the mail service processes your email address and information you choose to send. Do not send a master password, recovery code, or complete private records. For privacy questions, email <a href="mailto:shijiuhan19@gmail.com?subject=Vellock%20Privacy">shijiuhan19@gmail.com</a>.</p>
+        <h2>7. Updates</h2>
+        <p>Before releasing features that change data handling, including networking, accounts, analytics, or purchases, we will update this policy and the App Store privacy answers.</p>
+      </div>
+    </section>
+
+    <nav><a href="../">帮助与支持 / Support</a><a href="../../">所有 App / All apps</a></nav>
+    <footer>© 2026 SHIJIU STUDIO · Vellock</footer>
+  </main>
+</body>
+</html>
