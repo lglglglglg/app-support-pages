@@ -15,19 +15,19 @@
         <div><strong>晴简天气</strong><span>SHIJIU STUDIO</span></div>
       </div>
       <h1>隐私政策</h1>
-      <p class="meta">更新日期：2026 年 11 月 1 日</p>
+      <p class="meta">更新日期：2026 年 11 月 7 日</p>
       <p class="lede">晴简天气由独立开发者以 SHIJIU STUDIO 品牌提供。我们尽量减少数据传输，并让你自主选择是否使用当前位置。</p>
     </header>
 
     <section class="card">
       <h2>1. 位置与天气</h2>
-      <p>只有你主动选择或刷新“当前位置”时，晴简才请求 iOS 的“使用 App 期间”定位权限，并取得一次位置。所选地点的查询坐标会发送给 Apple WeatherKit 获取天气；当前位置的地名会通过 Apple 的反向地理编码服务解析。固定城市可在不授予定位权限的情况下使用。晴简不持续记录位置轨迹，也不请求后台定位。</p>
+      <p>首次打开且尚未选择城市时，晴简会请求 iOS 的“使用 App 期间”定位权限，获取当前位置并查询真实天气。之后选择“当前位置”时，每次打开应用都会检查一次位置；与上次成功获取天气的位置相距至少 5 公里，或天气已满 15 分钟时，才重新请求 Apple WeatherKit。位置接近且天气缓存仍新鲜时，应用立即显示带更新时间的真实缓存，不重复请求天气；手动刷新会重新请求天气。查询坐标会发送给 Apple WeatherKit，当前位置的地名会通过 Apple 的反向地理编码服务解析。固定城市可在不授予定位权限的情况下使用。晴简不持续记录位置轨迹，也不请求后台定位。</p>
       <h2>2. 城市搜索</h2>
       <p>全球城市搜索使用随 App 打包的 GeoNames 离线资料。搜索词只在设备上匹配，不发送给 GeoNames 或开发者的服务器。离线目录不包含所有街道和村镇。</p>
       <h2>3. 本机保存</h2>
-      <p>晴简在设备上保存你选中和收藏的城市及其坐标、外观、语言和语音播报偏好、天气变化提醒开关，以及最近的天气、地名与更新时间。天气缓存最多保留 6 小时，并通过 App Group 与晴简小组件共享。天气变化提醒默认关闭；开启后，App 根据已获取的预报在设备上安排本地通知，不会为此上传城市或设备推送令牌。晴简没有自己的账号、广告、分析或云同步服务器，不会将这些本机设置上传给开发者。</p>
+      <p>晴简在设备上保存你选中和收藏的城市及其坐标、上次用于获取当前位置天气的坐标、外观、语言和语音播报偏好、天气变化提醒开关，以及最近的天气、地名与更新时间。天气缓存最多保留 6 小时，并通过 App Group 与晴简小组件共享。天气变化提醒默认关闭；开启后，App 根据已获取的预报在设备上安排本地通知，不会为此上传城市或设备推送令牌。晴简没有自己的账号、广告、分析或云同步服务器，不会将这些本机设置上传给开发者。</p>
       <h2>4. 服务不可用时</h2>
-      <p>Apple WeatherKit 暂不可用时，晴简会显示上次天气缓存或明确的错误提示；当前版本不会请求备用天气服务。首次无可用缓存时可能显示标明为预览的数据。</p>
+      <p>Apple WeatherKit 暂不可用时，晴简会显示上次天气缓存或明确的错误提示；当前版本不会请求备用天气服务。首次没有可用缓存时，不会显示模拟天气。</p>
       <h2>5. 你的选择</h2>
       <p>你可以在 iOS“设置”中撤销晴简的定位权限，继续使用固定城市。删除 App 可移除其设备本地数据。第三方服务依其各自政策处理相关请求；可阅读 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。离线城市资料的来源及许可见 <a href="https://www.geonames.org/export/">GeoNames</a>。</p>
       <h2>6. 更新与联系</h2>
@@ -38,16 +38,16 @@
 
     <section lang="en">
       <h1>Qingjian Weather Privacy Policy</h1>
-      <p class="meta">Updated November 1, 2026</p>
+      <p class="meta">Updated November 7, 2026</p>
       <div class="card">
         <h2>1. Location and weather</h2>
-        <p>Qingjian Weather is offered by an independent developer under the SHIJIU STUDIO brand. The app requests iOS When In Use location access only when you select or refresh Current Location. It obtains one location for that action. The selected coordinates are sent to Apple WeatherKit for forecasts, and Apple’s reverse geocoding service resolves the place name. You can use a saved city without location access. The app does not continuously record a location trail or request background location.</p>
+        <p>Qingjian Weather is offered by an independent developer under the SHIJIU STUDIO brand. On first launch, if you have not selected a city, the app requests iOS When In Use location access, obtains your current location, and fetches real weather. With Current Location selected, it checks your location each time you open the app. It requests Apple WeatherKit again when you are at least 5 km from the location used for the last successful weather fetch or the weather is at least 15 minutes old. Otherwise, it immediately shows real cached weather with its update time. Manual refresh requests new weather. The selected coordinates are sent to Apple WeatherKit for forecasts, and Apple’s reverse geocoding service resolves the current place name. You can use a saved city without location access. The app does not continuously record a location trail or request background location.</p>
         <h2>2. City search</h2>
         <p>City search matches a GeoNames data file bundled with the app. Search terms stay on the device and are not sent to GeoNames or a developer-operated server. The offline list does not contain every street or village.</p>
         <h2>3. Local storage</h2>
-        <p>The app stores selected and favorite cities and their coordinates, appearance, language and speech settings, forecast reminder preferences, recent weather, place names, and update times on your device. Weather cache is retained for up to six hours and shared with widgets through an App Group. Forecast reminders are off by default. If enabled, the app schedules local notifications on your device from forecasts it has already fetched; it does not upload cities or a device push token for this purpose. The app has no developer-operated account, advertising, analytics, or cloud sync server, and does not upload these local settings to the developer.</p>
+        <p>The app stores selected and favorite cities and their coordinates, the last coordinate used to fetch Current Location weather, appearance, language and speech settings, forecast reminder preferences, recent weather, place names, and update times on your device. Weather cache is retained for up to six hours and shared with widgets through an App Group. Forecast reminders are off by default. If enabled, the app schedules local notifications on your device from forecasts it has already fetched; it does not upload cities or a device push token for this purpose. The app has no developer-operated account, advertising, analytics, or cloud sync server, and does not upload these local settings to the developer.</p>
         <h2>4. Unavailable service</h2>
-        <p>If Apple WeatherKit is unavailable, the app shows cached weather or a clear error. The current version does not use a backup weather provider. With no cache, it may show data clearly labeled as a preview.</p>
+        <p>If Apple WeatherKit is unavailable, the app shows cached weather or a clear error. The current version does not use a backup weather provider. With no cache, it does not show simulated weather.</p>
         <h2>5. Your choices</h2>
         <p>You can revoke location access in iOS Settings and continue using saved cities. Deleting the app removes its on-device app data. External services handle requests under their own policies: see <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. The bundled city data and its license are described by <a href="https://www.geonames.org/export/">GeoNames</a>.</p>
         <h2>6. Updates and contact</h2>
