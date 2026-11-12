@@ -29,6 +29,8 @@
       <p>不会。旧备份仍使用导出时的凭据。更换主密码或恢复码后，请重新导出一份备份。不要在唯一一份资料库上通过覆盖恢复来测试旧备份。</p>
       <h3>复制后“约 30 秒清除”是什么意思？</h3>
       <p>App 会尝试在约 30 秒后移除自己写入的剪贴板内容，保险箱中的原资料不会删除。其他 App 在清除前读到的内容无法撤回。</p>
+      <h3>如何清理旧加密副本或删除本机保险箱？</h3>
+      <p>先解锁，再打开“设置 → 本机数据管理”。“清理本机历史加密副本”只移除恢复或旧格式迁移时由 App 保留的旧密文，不影响当前保险箱。若要删除当前保险箱，选择“删除本机保险箱”，输入主密码或恢复码并再次确认；这会同时移除上述旧副本和 Face ID 解锁项。自行导出的备份与 iOS 系统备份不会随之删除，请先确认需要保留的备份和恢复码。</p>
     </section>
 
     <section class="card">
@@ -45,6 +47,7 @@
       <h2>English support</h2>
       <p>Vellock stores an encrypted vault on your iPhone. It has no developer-operated account or automatic cloud sync. To move to another phone, export an encrypted .vault backup and restore it with the password or recovery code used for that backup.</p>
       <p>If you forget your master password, use your recovery code on the lock screen. If both are lost, we cannot recover your data. Older backups keep their original credentials after you change the current vault password or recovery code.</p>
+      <p>After unlocking, go to Settings → On-Device Data and choose Remove Previous Vault Copies to clear encrypted copies retained after a restore or legacy-format migration without affecting your current vault. To delete the local vault, choose Delete Local Vault, enter your master password or recovery code, and confirm again. This also removes those older copies and the Face ID unlock item. Exported backups and iOS system backups remain; check that you have the backups and recovery code you need first.</p>
       <p>Email <a href="mailto:shijiuhan19@gmail.com?subject=Vellock%20Support">shijiuhan19@gmail.com</a> with your iPhone, iOS and app versions, plus steps to reproduce. Never send a master password, recovery code, full account number, or an unredacted vault screenshot.</p>
       <p>Email is the primary support channel. The optional <a href="https://qm.qq.com/q/GWgiKHVGQo">Han19 Software QQ group</a> is 1063952497. Never post vault secrets in the group.</p>
     </section>
