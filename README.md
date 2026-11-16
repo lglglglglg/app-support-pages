@@ -4,7 +4,13 @@ Public support, privacy policy, and terms pages for SHIJIU STUDIO apps. The
 published repository contains static public pages only; product source code and
 internal development documents remain private.
 
-## Published apps
+## App support pages
+
+### Xiaoxiang Faxianjia / 小象发现家
+
+- Support: <https://lglglglglg.github.io/app-support-pages/xiaoxiang-faxianjia/>
+- Privacy Policy: <https://lglglglglg.github.io/app-support-pages/xiaoxiang-faxianjia/privacy/>
+- Use and Parent Guidance: <https://lglglglglg.github.io/app-support-pages/xiaoxiang-faxianjia/terms/>
 
 ### Looplet
 
